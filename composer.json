@@ -7,5 +7,17 @@
         "guzzlehttp/guzzle": "^7.4",
         "symfony/dom-crawler": "^6.1",
         "symfony/css-selector": "^6.1"
+    },
+    "autoload": {
+        "classmap": [
+            "./Test.php"
+        ],
+        "files": ["./functions.php"],
+        "psr-4": {
+            "Projeto\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
