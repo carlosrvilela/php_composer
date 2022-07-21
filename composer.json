@@ -1,0 +1,11 @@
+{
+    "composer.executablePath": "/usr/local/bin/composer",
+    "name": "carlosjr/bucador-cursos",
+    "description": "Bucador de cursos",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    }
+}
