@@ -59,6 +59,6 @@ class TestBuscadorDeCursos extends TestCase
         $this->assertCount(3, $cursos);
         $this->assertEquals('Curso Teste 1', $cursos[0]);
         $this->assertEquals('Curso Teste 2', $cursos[1]);
-        $this->assertEquals('Curso Teste', $cursos[2]);
+        $this->assertEquals('Curso Teste 3', $cursos[2]);
     }
 }

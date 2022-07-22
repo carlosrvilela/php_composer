@@ -1,4 +1,5 @@
 <?php
+
 namespace Projeto\BuscadorDeCursos;
 
 use GuzzleHttp\ClientInterface;
